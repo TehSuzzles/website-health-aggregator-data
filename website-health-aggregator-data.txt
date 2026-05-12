@@ -1,0 +1,160 @@
+{
+  "site": {
+    "name": "Quirky Quail Cosmetics",
+    "domain": "quirkyquailcosmetics.com"
+  },
+  "report": {
+    "generated_at": "2026-05-12T09:52:01Z",
+    "window": "24h",
+    "aggregator_version": "1.1.2"
+  },
+  "uptime": {
+    "uptime_percent_24h": 99.42,
+    "uptime_percent_30d": 99.81,
+    "total_downtime_minutes_24h": 8.4,
+    "incidents_24h": 1,
+    "checks_performed_24h": 288,
+    "failed_checks_24h": 1,
+    "average_response_time_ms": 684
+  },
+  "services": [
+    {
+      "name": "Homepage",
+      "url": "https://quirkyquailcosmetics.com/",
+      "uptime_percent_24h": 100,
+      "p50_response_ms": 218,
+      "p95_response_ms": 640,
+      "error_rate_percent": 0.02
+    },
+    {
+      "name": "Product Pages",
+      "url": "https://quirkyquailcosmetics.com/products",
+      "uptime_percent_24h": 99.63,
+      "p50_response_ms": 382,
+      "p95_response_ms": 1420,
+      "error_rate_percent": 0.41
+    },
+    {
+      "name": "Checkout",
+      "url": "https://quirkyquailcosmetics.com/checkout",
+      "uptime_percent_24h": 99.21,
+      "p50_response_ms": 690,
+      "p95_response_ms": 2180,
+      "error_rate_percent": 1.4
+    },
+    {
+      "name": "Search",
+      "url": "https://quirkyquailcosmetics.com/search",
+      "uptime_percent_24h": 99.12,
+      "p50_response_ms": 510,
+      "p95_response_ms": 1910,
+      "error_rate_percent": 1.1
+    }
+  ],
+  "core_web_vitals": {
+    "largest_contentful_paint_ms": 3600,
+    "interaction_to_next_paint_ms": 245,
+    "cumulative_layout_shift": 0.13,
+    "first_contentful_paint_ms": 1900,
+    "time_to_first_byte_ms": 760,
+    "pages_tested": 25,
+    "failing_pages": [
+      {
+        "url": "https://quirkyquailcosmetics.com/products/cherry-red-balm",
+        "lcp_ms": 3800,
+        "inp_ms": 280,
+        "cls": 0.18
+      },
+      {
+        "url": "https://quirkyquailcosmetics.com/category/sale",
+        "lcp_ms": 3900,
+        "inp_ms": 220,
+        "cls": 0.16
+      }
+    ]
+  },
+  "ssl": {
+    "valid": true,
+    "issuer": "DigiCert",
+    "expires_at": "2026-06-02T23:59:59Z",
+    "expires_in_days": 21,
+    "protocol_issues": [],
+    "certificate_chain_valid": true
+  },
+  "broken_links": {
+    "total_checked": 823,
+    "broken_count": 8,
+    "broken_internal_links": 5,
+    "broken_external_links": 3,
+    "examples": [
+      {
+        "source_url": "https://quirkyquailcosmetics.com/pricing",
+        "target_url": "https://quirkyquailcosmetics.com/old-checkout",
+        "status_code": 404,
+        "link_text": "Start checkout"
+      },
+      {
+        "source_url": "https://quirkyquailcosmetics.com/blog/site-speed-guide",
+        "target_url": "https://external-quirkyquailcosmetics.com/report.pdf",
+        "status_code": 410,
+        "link_text": "download the report"
+      },
+      {
+        "source_url": "https://quirkyquailcosmetics.com/products/cherry-red-balm",
+        "target_url": "https://quirkyquailcosmetics.com/colour-guide-old",
+        "status_code": 404,
+        "link_text": "Colour guide"
+      }
+    ]
+  },
+  "indexing": {
+    "pages_submitted": 312,
+    "pages_indexed": 284,
+    "excluded_pages": 28,
+    "coverage_issues": [
+      {
+        "issue": "Crawled - currently not indexed",
+        "count": 14,
+        "severity": "medium"
+      },
+      {
+        "issue": "Duplicate without user-selected canonical",
+        "count": 9,
+        "severity": "medium"
+      },
+      {
+        "issue": "Discovered - currently not indexed",
+        "count": 5,
+        "severity": "low"
+      }
+    ],
+    "sitemap_status": {
+      "submitted": true,
+      "last_read": "2026-05-12T05:15:00Z",
+      "urls_discovered": 312,
+      "errors": 0
+    }
+  },
+  "server_errors": {
+    "five_xx_last_24h": 28,
+    "four_xx_last_24h": 126,
+    "error_rate_percent": 0.9,
+    "top_errors": [
+      {
+        "status_code": 500,
+        "count": 12,
+        "affected_path": "/checkout/payment"
+      },
+      {
+        "status_code": 502,
+        "count": 8,
+        "affected_path": "/api/search"
+      },
+      {
+        "status_code": 404,
+        "count": 42,
+        "affected_path": "/old-checkout"
+      }
+    ]
+  }
+}
